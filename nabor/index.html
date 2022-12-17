@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Набор</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="cont">
+<div class="title">
+  <p class="welcome">Набор</p>
+</div>
+  <br>
+  <hr/>
+<form action="/" method="post">
+    <div class="username">
+  <p class="thename">Ваше настоящее имя</p>
+    <br>
+  <textarea name="urname" maxlength="14"></textarea>
+  </div>
+  <hr/>
+  <div class="age">
+    <p class="theage">Сколько вам полных лет</p>
+      <br>
+    <textarea name="age" maxlength="2"></textarea>
+    </div>
+  <hr/>
+  <div class="adequate">
+    <p class="adequate">Насколько вы адекватный опишите подробно</p>
+      <br>
+    <textarea name="theadequate" maxlength="100"></textarea>
+    </div>
+    <hr/>
+    <div class="userinfo">
+      <p class="userinfo">Опишите себя(подробно)</p>
+        <br>
+      <textarea name="theuserinfo" maxlength="100"></textarea>
+      </div>
+      <hr/>
+      <div class="region">
+        <p class="skill">Страна</p>
+          <br>
+        <textarea name="region" maxlength="13"></textarea>
+        </div>
+    <hr/>
+    <br><br>
+    <div class="buttons">
+  <div class="dark">
+      <input type="submit" class="btn btn-white btn-mid" onclick="bye()">
+  </div>
+  </div>
+</form>
+
+</div>
+</body>
+</html>
+
+<script>
+    function bye() {
+        alert("Ваша анкета успешно отправлена, после нажатия кнопки ОК вы будете переведены на другой сайт!")
+    }
+
+   /* if(document.getElementById("asdname").value == '')
+{
+    alert("blank");
+} */
+</script>
