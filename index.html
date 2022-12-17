@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Анкета</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="cont">
+<div class="title">
+  <p class="welcome">Анкета</p>
+</div>
+  <br>
+  <hr/>
+<form action="/" method="post">
+    <div class="username">
+  <p class="thename">Ваше имя</p>
+    <br>
+  <textarea name="urname" maxlength="14"></textarea>
+  </div>
+  <hr/>
+  <div class="age">
+    <p class="theage">Ваш возраст</p>
+      <br>
+    <textarea name="age" maxlength="2"></textarea>
+    </div>
+  <hr/>
+  <div class="skills">
+    <p class="skill">Знания</p>
+    <p class="examples">Например: Lua, HTML</p>
+      <br>
+    <textarea name="skill" maxlength="40"></textarea>
+    </div>
+    <hr/>
+    <div class="discord">
+      <p class="skill">Ваш дискорд (и тег)</p>
+      <p class="examples">Например: abobus#1111</p>
+        <br>
+      <textarea name="discord" maxlength="16"></textarea>
+      </div>
+      <hr/>
+      <div class="region">
+        <p class="skill">Страна</p>
+          <br>
+        <textarea name="region" maxlength="13"></textarea>
+        </div>
+    <hr/>
+    <br><br>
+    <div class="buttons">
+  <div class="dark">
+      <input type="submit" class="btn btn-white btn-mid" onclick="bye()">
+  </div>
+  </div>
+</form>
+
+</div>
+</body>
+</html>
+
+<script>
+    function bye() {
+        alert("Ваша анкета успешно отправлена, после нажатия кнопки ОК вы будете переведены на другой сайт!")
+    }
+
+   /* if(document.getElementById("asdname").value == '')
+{
+    alert("blank");
+} */
+</script>
